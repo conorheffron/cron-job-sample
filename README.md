@@ -3,6 +3,6 @@ CronJobTest
 
 Sample of a cron job
 
-Test locally, hello world page on slash, job runs currently every seven seconds and logs time..
+Test job runs every seven seconds (logs time)
 
-root /
+Ideal base code for file feeds
