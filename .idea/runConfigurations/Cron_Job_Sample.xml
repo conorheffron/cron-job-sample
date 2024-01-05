@@ -1,0 +1,28 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Cron Job Sample" type="com.poratu.idea.plugins.tomcat">
+    <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+    <predefined_log_file enabled="true" id="Tomcat Access Log" />
+    <predefined_log_file id="Tomcat Catalina Log" />
+    <predefined_log_file id="Tomcat Manager Log" />
+    <predefined_log_file id="Tomcat Host Manager Log" />
+    <option name="catalinaBase" value="$USER_HOME$/.SmartTomcat/cron-job-sample/cron" />
+    <option name="contextPath" value="/cron" />
+    <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+    <option name="envOptions">
+      <map />
+    </option>
+    <option name="extraClassPath" value="" />
+    <option name="tomcatInfo">
+      <TomcatInfo>
+        <option name="name" value="Apache Tomcat/9.0.84" />
+        <option name="path" value="$USER_HOME$/tomcat/apache-tomcat-9.0.84" />
+        <option name="version" value="9.0.84.0" />
+      </TomcatInfo>
+    </option>
+    <option name="vmOptions" value="" />
+    <module name="cron" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
