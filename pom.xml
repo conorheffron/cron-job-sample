@@ -13,6 +13,15 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
+
+	<distributionManagement>
+	   <repository>
+	     <id>github</id>
+	     <name>GitHub conorheffron Apache Maven Packages</name>
+	     <url>https://maven.pkg.github.com/conorheffron/cron-job-sample</url>
+	   </repository>
+	</distributionManagement>
+	
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
