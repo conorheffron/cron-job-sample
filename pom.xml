@@ -8,18 +8,18 @@
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
-		<java-version>1.6</java-version>
+		<java-version>1.8</java-version>
 		<org.springframework-version>6.1.5</org.springframework-version>
 		<org.aspectj-version>1.9.22</org.aspectj-version>
 		<org.slf4j-version>2.0.12</org.slf4j-version>
 	</properties>
 
 	<distributionManagement>
-	   <repository>
-	     <id>github</id>
-	     <name>GitHub conorheffron Apache Maven Packages</name>
-	     <url>https://maven.pkg.github.com/conorheffron/cron-job-sample</url>
-	   </repository>
+		<repository>
+			<id>github</id>
+			<name>GitHub conorheffron Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/conorheffron/cron-job-sample</url>
+		</repository>
 	</distributionManagement>
 	
 	<dependencies>
@@ -131,10 +131,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>2.5.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                     <compilerArgument>-Xlint:all</compilerArgument>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
