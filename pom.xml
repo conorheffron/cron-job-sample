@@ -11,7 +11,7 @@
 		<java-version>1.6</java-version>
 		<org.springframework-version>5.2.22.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.9.22</org.aspectj-version>
-		<org.slf4j-version>1.6.6</org.slf4j-version>
+		<org.slf4j-version>2.0.12</org.slf4j-version>
 	</properties>
 
 	<distributionManagement>
