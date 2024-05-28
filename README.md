@@ -4,4 +4,4 @@
 - This project is an example of how to set up a job to read a local CSV file with Spring annotations and some basic configurations. It provides a basic template for Java/Spring developers.
 
 ## Technologies
-- JDK 17, Spring 6.1.5, and Maven
+- JDK 17, Spring 6, and Maven
