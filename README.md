@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/conorheffron/cron-job-sample/actions/workflows/maven.yml/badge.svg)](https://github.com/conorheffron/cron-job-sample/actions/workflows/maven.yml)
+
 ![Auto Assign](https://github.com/conorheffron/cron-job-sample/actions/workflows/auto-assign.yml/badge.svg)
 
 # cron-job-sample
