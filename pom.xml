@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cron-job-sample</groupId>
 	<artifactId>cron-job-sample-spring</artifactId>
-	<version>3.2.7-RELEASE</version>
+	<version>3.2.8-RELEASE</version>
 	
 	<properties>
 		<org.springframework-version>6.2.3</org.springframework-version>
 		<org.aspectj-version>1.9.22.1</org.aspectj-version>
-		<org.slf4j-version>2.0.16</org.slf4j-version>
+		<org.slf4j-version>2.0.17</org.slf4j-version>
 	</properties>
 
 	<distributionManagement>
