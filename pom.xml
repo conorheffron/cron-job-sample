@@ -8,7 +8,7 @@
 	<version>3.2.9-RELEASE</version>
 	
 	<properties>
-		<org.springframework-version>6.2.4</org.springframework-version>
+		<org.springframework-version>6.2.5</org.springframework-version>
 		<org.aspectj-version>1.9.23</org.aspectj-version>
 		<org.slf4j-version>2.0.17</org.slf4j-version>
 	</properties>
