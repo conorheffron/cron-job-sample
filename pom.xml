@@ -12,7 +12,7 @@
 
     <groupId>net.ironoc.cron</groupId>
     <artifactId>cron-job-sample-spring</artifactId>
-    <version>3.5.2-RELEASE</version>
+    <version>3.5.3-RELEASE</version>
     <name>cron-job-sample</name>
     <description>Demo project for Spring Boot</description>
 
