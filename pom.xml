@@ -7,14 +7,14 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>4.0.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>net.ironoc.cron</groupId>
     <artifactId>cron-job-sample-spring</artifactId>
     <version>3.5.3-RELEASE</version>
     <name>cron-job-sample</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Cron Job Sample Project using Spring Boot 4</description>
 
     <properties>
         <java.version>17</java.version>
@@ -36,11 +36,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
 
         <!-- JSP rendering support -->
