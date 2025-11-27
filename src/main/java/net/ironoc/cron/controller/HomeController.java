@@ -6,14 +6,14 @@ import java.util.Locale;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.ui.Model;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Handles requests for the application home page.
  */
-@RestController
+@Controller
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
@@ -21,8 +21,9 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@GetMapping(value = "/")
-	public String home(Locale locale, Model model) {
+	@GetMapping("/")
+	public ModelAndView home(Locale locale) {
+        ModelAndView mav = new ModelAndView();
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -30,7 +31,8 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		
-		model.addAttribute("serverTime", formattedDate );
-		return "home";
+		mav.addObject("serverTime", formattedDate);
+        mav.setViewName("home");
+		return mav;
 	}
 }

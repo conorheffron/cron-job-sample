@@ -10,7 +10,7 @@
 - This project is an example of how to set up a job to read a local CSV file with Spring annotations and some basic configurations. It provides a basic template for Java/Spring developers.
 
 ## Technologies
-- JDK 17, Spring Boot 3, & Maven
+- JDK 17, Spring Boot 4, JSP, & Maven
 
 ## Build Project
 ```shell
@@ -21,6 +21,13 @@
 ```shell
 ./mvnw spring-boot:run
 ```
+
+## Visit home Page (for current/localized server time)
+```
+http://localhost:8080/
+```
+
+![home-view-rendered](./src/main/resources/home-view-rendered.png)
 
 ## Track Logs (File Service Job Runs every 10 seconds, reading file line by line `src/main/resources/feed_file.csv`)
 ![file-service-3x-job-logs](./src/main/resources/file-service-3x-job-logs.png)
