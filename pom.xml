@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.1</version>
+        <version>4.0.2</version>
         <relativePath/>
     </parent>
 
     <groupId>net.ironoc.cron</groupId>
     <artifactId>cron-job-sample-spring</artifactId>
-    <version>3.5.4-RELEASE</version>
+    <version>3.5.5-RELEASE</version>
     <name>cron-job-sample</name>
     <description>Cron Job Sample Project using Spring Boot 4</description>
 
